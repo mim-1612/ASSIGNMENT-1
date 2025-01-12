@@ -1,0 +1,119 @@
+
+
+*{
+          padding: 0;
+          margin: 0;
+        }
+        body{
+          font-family: "Fira Sans", serif;
+            font-style: normal;
+            background-color: #F1F1F3;
+            
+        }
+        .btn-primary{
+          box-sizing: border-box;
+        border: 1px solid rgb(0, 106, 80);
+        border-radius: 3px;
+        width: 80px;
+        height: 40px;
+        
+        }
+        nav{
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             /* margin: 90px 900px; */
+             height: 10px;
+             max-width: 1250px;
+             margin: auto;
+             padding: 24px 158px 24px 160px;
+           
+        }
+        nav ul{
+          display: flex;
+        }
+        
+        .nav-title{
+          font-weight: 700;
+        font-size: 22px;
+        }
+        nav ul li{
+                  list-style: none;
+               
+        }
+        nav li a{
+                  text-decoration: none;
+                  
+        }
+        .parent{
+          
+                background-color: #C6E4D6;
+                display: flex;
+                gap: 60px;
+                /* margin: 5px 650px; */
+                border-radius: 24px;
+                justify-content: center;
+                align-items: center;
+                height: 430px;
+                max-width: 1250px;
+                margin: auto;
+        
+                
+                
+                
+        }
+        .banner{
+          display: flex;
+          align-items: center;
+             justify-content: space-between;
+             
+             
+        }
+        
+        .banner-content{
+        
+          
+          
+        }
+        .banner-title{
+          color: rgba(14, 14, 14, 0.5);
+        font-family: Fira Sans;
+        font-size: 20px;
+        line-height: 29px;
+        
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        
+        
+        }
+        
+        .banner-desc{
+          color: rgb(14, 14, 14);
+        font-family: Fira Sans;
+        font-size: 39px;
+        font-weight: 800;
+        text-align: left;
+        /* width: 322px; */
+        height: 165px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        }
+        
+        .btn-secondary{
+          border-radius: 8px;
+          background: rgb(0, 106, 80);
+          width: 190px;
+        height: 36px;
+        color: #FFFFFF;
+        }
+        .banner-pro-pic{
+          /* width: 374px; */
+        }
+        
