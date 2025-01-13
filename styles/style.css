@@ -1,15 +1,19 @@
 
-
 *{
-          padding: 0;
-          margin: 0;
-        }
+          padding: 0px;
+          margin: 0px;
+ }
+
         body{
           font-family: "Fira Sans", serif;
             font-style: normal;
             background-color: #F1F1F3;
             
         }
+
+        /* Banner  */
+
+
         .btn-primary{
           box-sizing: border-box;
         border: 1px solid rgb(0, 106, 80);
@@ -22,7 +26,6 @@
              display: flex;
              align-items: center;
              justify-content: space-between;
-             /* margin: 90px 900px; */
              height: 10px;
              max-width: 1250px;
              margin: auto;
@@ -50,7 +53,6 @@
                 background-color: #C6E4D6;
                 display: flex;
                 gap: 60px;
-                /* margin: 5px 650px; */
                 border-radius: 24px;
                 justify-content: center;
                 align-items: center;
@@ -66,30 +68,19 @@
           display: flex;
           align-items: center;
              justify-content: space-between;
-             
+             gap: 94px;
              
         }
-        
-        .banner-content{
-        
-          
-          
-        }
+       
         .banner-title{
           color: rgba(14, 14, 14, 0.5);
-        font-family: Fira Sans;
-        font-size: 20px;
-        line-height: 29px;
-        
-        
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        
-        
-        
+          font-family: Fira Sans;
+          font-size: 20px;
+          line-height: 29px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
         }
         
         .banner-desc{
@@ -98,7 +89,6 @@
         font-size: 39px;
         font-weight: 800;
         text-align: left;
-        /* width: 322px; */
         height: 165px;
         display: flex;
         flex-direction: column;
@@ -113,7 +103,46 @@
         height: 36px;
         color: #FFFFFF;
         }
-        .banner-pro-pic{
-          /* width: 374px; */
+
+        /* Main Section */
+
+        main {
+          max-width: 1250px;
+          margin: auto;
         }
-        
+
+      .total-h3{
+        font-size: 30px;
+        color: #0E0E0E;
+        display: flex;
+        align-items: start;
+          
+          
+
+      }  
+
+      .total-h6{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0E0E0E;
+        opacity: 80%;
+        margin-top: 24px;
+      }
+
+      .topic-of-pillars{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 33px;
+        gap: 24px;
+      
+      }
+
+      .content-of-pillar{
+        border: 1px solid rgba(14, 14, 14, 15%);
+      border-radius: 12px;
+      background-color: #FFFFFF;
+      padding: 10px;
+      width: 300px;
+      height: 244px;
+      } 
