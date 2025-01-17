@@ -346,3 +346,183 @@ topic-news h3{
     border: none;
     margin-top: 32px;
 }
+
+
+/* Donate-Section */
+
+.donate .th3{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.donate{
+  text-align: center;
+}
+
+.donate p{
+  font-size: 15px;
+font-weight: 300;
+line-height: 20px;
+}
+
+.donate-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 0;
+}
+
+.donate-button button {
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 15%);
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 16px;
+  color: #0E0E0E;
+  opacity: 80%;
+  background-color: #FFFFFF;
+}
+
+.donate-button .b2{
+  background-color: #C6E4D6;
+}
+
+.ammount{
+    text-align: center;
+    max-width: 1035px;
+    margin: auto;
+    background-color: #FFFFFF;  
+}
+
+.ammount input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.ammount input[type="text"]{
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  color: #0E0E0E;
+  opacity: 50%;
+}
+
+.done-now{
+  text-align: center;
+  margin:32px 0 ;
+}
+
+
+.done-now button{
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+color: #FFFFFF;
+background: rgb(0, 106, 80);
+padding: 17px 34px;
+font-size: 18px;
+font-weight: 600;
+}
+
+
+
+/* newsletter */
+
+.newsletter{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #C6E4D6;
+}
+
+
+.newsletter .th3{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.newsletter p{
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+
+.content-newsletter{
+  text-align: center;
+  padding: 80px 0;
+}
+
+.subscribe{
+  max-width: 750px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+
+.subscribe input[type="email"]{
+  width: 100%;
+  padding: 18px 35px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 30%);
+  border-radius: 15px 0 0 15px;
+}
+
+.subscribe input[type="button"]{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  margin-right: -80px;
+  padding: 18px 40px;
+  background-color: #006A50;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 15px 15px 0 ;
+}
+
+/* footer-section */
+
+footer{
+  background-color: #FFFFFF;
+}
+
+
+.content-footer .th3{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+.content-footer{
+  padding: 50px 160px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  max-width: 1280px;
+align-items: center;
+margin: auto;
+  
+ 
+}
+
+.content-footer img{
+  margin: 24px 12px;
+}
+
+.content-footer .hr{
+  border: 1px solid rgb(14, 14, 14);
+  opacity: 1%;
+} 
+
